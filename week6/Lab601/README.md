@@ -15,6 +15,7 @@ Answer: This code have abstract factory pattern that encapsulated a group of fac
   - Test the new requirment by modifying the main function and show the result.
 ![570610596](http://i.imgur.com/oM81NmB.jpg)
   - Show the main function and snippet of C# code that is related to the process.
+  ```cs
   public static void Main()
   {
     ContinentFactory africa = new AfricaFactory();
@@ -55,4 +56,4 @@ Answer: This code have abstract factory pattern that encapsulated a group of fac
       " eats " + h.GetType().Name);
     }
   }
-
+  ```
